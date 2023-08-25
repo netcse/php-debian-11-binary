@@ -1,0 +1,7 @@
+ext/hash/sha3/generic64lc/KeccakP-1600-opt64.lo: \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-opt64.c \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/brg_endian.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-opt64-config.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-64.macros \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-unrolling.macros \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/SnP-Relaned.h

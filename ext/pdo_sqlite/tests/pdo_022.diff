@@ -1,0 +1,74 @@
+# original source file: ext/pdo/tests/pdo_022.phpt
+001- The unexpected!
+001+ array(8) {
+002+   ["native_type"]=>
+003+   string(7) "integer"
+004+   ["pdo_type"]=>
+005+   int(1)
+006+   ["sqlite:decl_type"]=>
+007+   string(3) "INT"
+008+   ["table"]=>
+009+   string(4) "test"
+010+   ["flags"]=>
+011+   array(0) {
+012+   }
+013+   ["name"]=>
+014+   string(2) "id"
+015+   ["len"]=>
+016+   int(-1)
+017+   ["precision"]=>
+018+   int(0)
+019+ }
+020+ array(8) {
+021+   ["native_type"]=>
+022+   string(6) "string"
+023+   ["pdo_type"]=>
+024+   int(2)
+025+   ["sqlite:decl_type"]=>
+026+   string(11) "VARCHAR(10)"
+027+   ["table"]=>
+028+   string(4) "test"
+029+   ["flags"]=>
+030+   array(0) {
+031+   }
+032+   ["name"]=>
+033+   string(3) "val"
+034+   ["len"]=>
+035+   int(-1)
+036+   ["precision"]=>
+037+   int(0)
+038+ }
+039+ array(8) {
+040+   ["native_type"]=>
+041+   string(6) "string"
+042+   ["pdo_type"]=>
+043+   int(2)
+044+   ["sqlite:decl_type"]=>
+045+   string(11) "VARCHAR(16)"
+046+   ["table"]=>
+047+   string(4) "test"
+048+   ["flags"]=>
+049+   array(0) {
+050+   }
+051+   ["name"]=>
+052+   string(4) "val2"
+053+   ["len"]=>
+054+   int(-1)
+055+   ["precision"]=>
+056+   int(0)
+057+ }
+058+ array(6) {
+059+   ["native_type"]=>
+060+   string(7) "integer"
+061+   ["pdo_type"]=>
+062+   int(1)
+063+   ["flags"]=>
+064+   array(0) {
+065+   }
+066+   ["name"]=>
+067+   string(8) "count(*)"
+068+   ["len"]=>
+069+   int(-1)
+070+   ["precision"]=>
+071+   int(0)
+072+ }

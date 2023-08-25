@@ -1,0 +1,4 @@
+sapi/cli/php_http_parser.lo: \
+ /home/smamran09/php-src/sapi/cli/php_http_parser.c \
+ /home/smamran09/php-src/sapi/cli/php_http_parser.h \
+ /home/smamran09/php-src/main/php_config.h

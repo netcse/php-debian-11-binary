@@ -1,0 +1,3 @@
+sapi/cli/ps_title.lo: /home/smamran09/php-src/sapi/cli/ps_title.c \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/sapi/cli/ps_title.h

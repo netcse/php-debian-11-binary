@@ -1,0 +1,9 @@
+ext/pcre/pcre2lib/pcre2_valid_utf.lo: \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2_valid_utf.c \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/config.h \
+ /home/smamran09/php-src/main/php_compat.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2_internal.h \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2.h \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2_ucp.h \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2_intmodedep.h

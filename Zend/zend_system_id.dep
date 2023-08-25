@@ -1,0 +1,54 @@
+Zend/zend_system_id.lo: /home/smamran09/php-src/Zend/zend_system_id.c \
+ /home/smamran09/php-src/main/php.h \
+ /home/smamran09/php-src/main/php_version.h Zend/zend.h Zend/zend_types.h \
+ Zend/zend_portability.h Zend/zend_config.h Zend/../main/php_config.h \
+ Zend/../TSRM/TSRM.h /home/smamran09/php-src/main/php_config.h \
+ Zend/zend_range_check.h Zend/zend_long.h Zend/zend_map_ptr.h \
+ Zend/zend_errors.h Zend/zend_alloc.h Zend/zend.h Zend/zend_alloc_sizes.h \
+ Zend/zend_llist.h Zend/zend_string.h Zend/zend_hash.h Zend/zend_sort.h \
+ Zend/zend_ast.h Zend/zend_gc.h Zend/zend_hrtime.h Zend/zend_variables.h \
+ Zend/zend_iterators.h Zend/zend_stream.h Zend/zend_smart_str_public.h \
+ Zend/zend_smart_string_public.h Zend/zend_signal.h \
+ Zend/zend_max_execution_timer.h Zend/zend_object_handlers.h \
+ Zend/zend_operators.h Zend/zend_strtod.h Zend/zend_multiply.h \
+ Zend/zend_sort.h /home/smamran09/php-src/main/php_compat.h \
+ /home/smamran09/php-src/main/php_config.h Zend/zend_API.h \
+ Zend/zend_modules.h Zend/zend_compile.h Zend/zend_globals.h \
+ Zend/zend_globals_macros.h Zend/zend_atomic.h Zend/zend_stack.h \
+ Zend/zend_ptr_stack.h Zend/zend_objects.h Zend/zend_objects_API.h \
+ Zend/zend_float.h Zend/zend_multibyte.h Zend/zend_arena.h \
+ Zend/zend_call_stack.h Zend/zend_vm_opcodes.h Zend/zend_build.h \
+ Zend/zend_list.h Zend/zend_execute.h Zend/zend_type_info.h \
+ /home/smamran09/php-src/main/build-defs.h Zend/zend_hash.h \
+ Zend/zend_alloc.h Zend/zend_stack.h \
+ /home/smamran09/php-src/main/snprintf.h \
+ /home/smamran09/php-src/main/spprintf.h Zend/zend_smart_str_public.h \
+ Zend/zend_smart_string_public.h \
+ /home/smamran09/php-src/main/php_syslog.h \
+ /home/smamran09/php-src/main/php.h \
+ /home/smamran09/php-src/main/php_output.h \
+ /home/smamran09/php-src/main/php_streams.h Zend/zend_stream.h \
+ /home/smamran09/php-src/main/streams/php_stream_context.h \
+ /home/smamran09/php-src/main/streams/php_stream_filter_api.h \
+ /home/smamran09/php-src/main/streams/php_stream_transport.h \
+ /home/smamran09/php-src/main/streams/php_stream_plain_wrapper.h \
+ /home/smamran09/php-src/main/streams/php_stream_glob_wrapper.h \
+ /home/smamran09/php-src/main/streams/php_stream_userspace.h \
+ /home/smamran09/php-src/main/streams/php_stream_mmap.h \
+ /home/smamran09/php-src/main/php_memory_streams.h \
+ /home/smamran09/php-src/main/fopen_wrappers.h \
+ /home/smamran09/php-src/main/php_globals.h Zend/zend_globals.h \
+ /home/smamran09/php-src/main/php_ini.h Zend/zend_ini.h \
+ Zend/zend_virtual_cwd.h /home/smamran09/php-src/TSRM/TSRM.h \
+ Zend/zend_constants.h /home/smamran09/php-src/main/php_reentrancy.h \
+ /home/smamran09/php-src/Zend/zend_system_id.h \
+ /home/smamran09/php-src/Zend/zend_extensions.h \
+ /home/smamran09/php-src/Zend/zend_compile.h \
+ /home/smamran09/php-src/Zend/zend_build.h \
+ /home/smamran09/php-src/ext/standard/md5.h \
+ /home/smamran09/php-src/ext/standard/basic_functions.h \
+ /home/smamran09/php-src/ext/standard/php_filestat.h \
+ Zend/zend_highlight.h \
+ /home/smamran09/php-src/ext/standard/url_scanner_ex.h \
+ /home/smamran09/php-src/ext/random/php_random.h \
+ /home/smamran09/php-src/ext/hash/php_hash.h

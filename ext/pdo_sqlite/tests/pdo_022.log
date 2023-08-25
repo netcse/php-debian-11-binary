@@ -1,0 +1,77 @@
+
+---- EXPECTED OUTPUT
+The unexpected!
+---- ACTUAL OUTPUT
+array(8) {
+  ["native_type"]=>
+  string(7) "integer"
+  ["pdo_type"]=>
+  int(1)
+  ["sqlite:decl_type"]=>
+  string(3) "INT"
+  ["table"]=>
+  string(4) "test"
+  ["flags"]=>
+  array(0) {
+  }
+  ["name"]=>
+  string(2) "id"
+  ["len"]=>
+  int(-1)
+  ["precision"]=>
+  int(0)
+}
+array(8) {
+  ["native_type"]=>
+  string(6) "string"
+  ["pdo_type"]=>
+  int(2)
+  ["sqlite:decl_type"]=>
+  string(11) "VARCHAR(10)"
+  ["table"]=>
+  string(4) "test"
+  ["flags"]=>
+  array(0) {
+  }
+  ["name"]=>
+  string(3) "val"
+  ["len"]=>
+  int(-1)
+  ["precision"]=>
+  int(0)
+}
+array(8) {
+  ["native_type"]=>
+  string(6) "string"
+  ["pdo_type"]=>
+  int(2)
+  ["sqlite:decl_type"]=>
+  string(11) "VARCHAR(16)"
+  ["table"]=>
+  string(4) "test"
+  ["flags"]=>
+  array(0) {
+  }
+  ["name"]=>
+  string(4) "val2"
+  ["len"]=>
+  int(-1)
+  ["precision"]=>
+  int(0)
+}
+array(6) {
+  ["native_type"]=>
+  string(7) "integer"
+  ["pdo_type"]=>
+  int(1)
+  ["flags"]=>
+  array(0) {
+  }
+  ["name"]=>
+  string(8) "count(*)"
+  ["len"]=>
+  int(-1)
+  ["precision"]=>
+  int(0)
+}
+---- FAILED

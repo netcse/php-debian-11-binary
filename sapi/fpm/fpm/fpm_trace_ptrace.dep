@@ -1,0 +1,6 @@
+sapi/fpm/fpm/fpm_trace_ptrace.lo: \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_trace_ptrace.c \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_config.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_trace.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/zlog.h

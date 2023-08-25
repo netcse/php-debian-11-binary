@@ -1,0 +1,270 @@
+--
+     Input timestamp is : 0
+     ------------
+     
+006- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+006+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, December 31, 1969 at 2:00:00 PM GMT-10:00
+008- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+008+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : December 31, 1969 at 2:00:00 PM GMT-10
+010- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+010+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Dec 31, 1969, 2:00:00 PM
+012- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+012+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 12/31/69, 2:00 PM
+014- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+014+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19691231 02:00 PM
+     ------------
+     
+     Input timestamp is : -1200000
+     ------------
+     
+021- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+021+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, December 17, 1969 at 4:40:00 PM GMT-10:00
+023- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+023+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : December 17, 1969 at 4:40:00 PM GMT-10
+025- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+025+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Dec 17, 1969, 4:40:00 PM
+027- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+027+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 12/17/69, 4:40 PM
+029- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+029+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19691217 04:40 PM
+     ------------
+     
+     Input timestamp is : 1200000
+     ------------
+     
+036- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+036+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, January 14, 1970 at 11:20:00 AM GMT-10:00
+038- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+038+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : January 14, 1970 at 11:20:00 AM GMT-10
+040- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+040+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Jan 14, 1970, 11:20:00 AM
+042- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+042+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 1/14/70, 11:20 AM
+044- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+044+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19700114 11:20 AM
+     ------------
+     
+     Input timestamp is : 2200000000
+     ------------
+     
+051- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+051+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Sunday, September 18, 2039 at 1:06:40 PM GMT-10:00
+053- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+053+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : September 18, 2039 at 1:06:40 PM GMT-10
+055- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+055+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Sep 18, 2039, 1:06:40 PM
+057- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+057+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 9/18/39, 1:06 PM
+059- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+059+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 20390918 01:06 PM
+     ------------
+     
+     Input timestamp is : -2200000000
+     ------------
+     
+066- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+066+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Saturday, April 14, 1900 at 2:53:20 PM GMT-10:00
+068- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+068+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : April 14, 1900 at 2:53:20 PM GMT-10
+070- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+070+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Apr 14, 1900, 2:53:20 PM
+072- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+072+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 4/14/00, 2:53 PM
+074- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+074+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19000414 02:53 PM
+     ------------
+     
+     Input timestamp is : 90099999
+     ------------
+     
+081- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+081+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, November 8, 1972 at 9:46:39 AM GMT-10:00
+083- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+083+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : November 8, 1972 at 9:46:39 AM GMT-10
+085- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+085+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Nov 8, 1972, 9:46:39 AM
+087- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+087+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 11/8/72, 9:46 AM
+089- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+089+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19721108 09:46 AM
+     ------------
+     
+     Input timestamp is : 3600
+     ------------
+     
+096- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+096+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, December 31, 1969 at 3:00:00 PM GMT-10:00
+098- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+098+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : December 31, 1969 at 3:00:00 PM GMT-10
+100- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+100+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Dec 31, 1969, 3:00:00 PM
+102- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+102+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 12/31/69, 3:00 PM
+104- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+104+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19691231 03:00 PM
+     ------------
+     
+     Input timestamp is : -3600
+     ------------
+     
+111- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+111+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted timestamp is : Wednesday, December 31, 1969 at 1:00:00 PM GMT-10:00
+113- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+113+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted timestamp is : December 31, 1969 at 1:00:00 PM GMT-10
+115- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+115+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted timestamp is : Dec 31, 1969, 1:00:00 PM
+117- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+117+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted timestamp is : 12/31/69, 1:00 PM
+119- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+119+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted timestamp is : 19691231 01:00 PM
+     ------------
+     
+123- Input localtime is : tm_sec : '24' , tm_min : '3' , tm_hour : '19' , tm_mday : '3' , tm_mon : '3' , tm_year : '105' ,
+123+ Input localtime is : tm_sec : '24' , tm_min : '3' , tm_hour : '19' , tm_mday : '3' , tm_mon : '3' , tm_year : '105' , 
+     ------------
+     
+126- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+126+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted localtime_array is : Sunday, April 3, 2005 at 7:03:24 PM GMT-10:00
+128- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+128+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted localtime_array is : April 3, 2005 at 7:03:24 PM GMT-10
+130- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+130+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted localtime_array is : Apr 3, 2005, 7:03:24 PM
+132- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+132+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted localtime_array is : 4/3/05, 7:03 PM
+134- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+134+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted localtime_array is : 20050403 07:03 PM
+     ------------
+     
+138- Input localtime is : tm_sec : '21' , tm_min : '5' , tm_hour : '7' , tm_mday : '13' , tm_mon : '4' , tm_year : '205' ,
+138+ Input localtime is : tm_sec : '21' , tm_min : '5' , tm_hour : '7' , tm_mday : '13' , tm_mon : '4' , tm_year : '205' , 
+     ------------
+     
+141- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+141+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted localtime_array is : Wednesday, May 13, 2105 at 7:05:21 AM GMT-10:00
+143- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+143+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted localtime_array is : May 13, 2105 at 7:05:21 AM GMT-10
+145- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+145+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted localtime_array is : May 13, 2105, 7:05:21 AM
+147- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+147+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted localtime_array is : 5/13/05, 7:05 AM
+149- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+149+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted localtime_array is : 21050513 07:05 AM
+     ------------
+     
+153- Input localtime is : tm_sec : '11' , tm_min : '13' , tm_hour : '0' , tm_mday : '17' , tm_mon : '11' , tm_year : '-5' ,
+153+ Input localtime is : tm_sec : '11' , tm_min : '13' , tm_hour : '0' , tm_mday : '17' , tm_mon : '11' , tm_year : '-5' , 
+     ------------
+     
+156- IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0
+156+ IntlDateFormatter locale= en_US ,datetype = 0 ,timetype =0 
+     Formatted localtime_array is : Tuesday, December 17, 1895 at 12:13:11 AM GMT-10:00
+158- IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1
+158+ IntlDateFormatter locale= en_US ,datetype = 1 ,timetype =1 
+     Formatted localtime_array is : December 17, 1895 at 12:13:11 AM GMT-10
+160- IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2
+160+ IntlDateFormatter locale= en_US ,datetype = 2 ,timetype =2 
+     Formatted localtime_array is : Dec 17, 1895, 12:13:11 AM
+162- IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3
+162+ IntlDateFormatter locale= en_US ,datetype = 3 ,timetype =3 
+     Formatted localtime_array is : 12/17/95, 12:13 AM
+164- IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1
+164+ IntlDateFormatter locale= en_US ,datetype = -1 ,timetype =-1 
+     Formatted localtime_array is : 18951217 12:13 AM
+     ------------
+     Date is: \DateTime::__set_state(array(
+--
+     Formatted DateTime is : 20091231 03:02 PM
+     ------------
+     Date is: \DateTime::__set_state(array(
+208-    'date' => '2000-12-30 19:04:05.000000',
+208+    'date' => '2000-12-30 20:04:05.000000',
+        'timezone_type' => 2,
+        'timezone' => 'PDT',
+     ))
+--
+     Formatted DateTime is : Saturday, December 30, 2000 at 5:04:05 PM GMT-10:00
+     ------------
+     Date is: \DateTime::__set_state(array(
+216-    'date' => '2000-12-30 19:04:05.000000',
+216+    'date' => '2000-12-30 20:04:05.000000',
+        'timezone_type' => 2,
+        'timezone' => 'PDT',
+     ))
+--
+     Formatted DateTime is : December 30, 2000 at 5:04:05 PM GMT-10
+     ------------
+     Date is: \DateTime::__set_state(array(
+224-    'date' => '2000-12-30 19:04:05.000000',
+224+    'date' => '2000-12-30 20:04:05.000000',
+        'timezone_type' => 2,
+        'timezone' => 'PDT',
+     ))
+--
+     Formatted DateTime is : Dec 30, 2000, 5:04:05 PM
+     ------------
+     Date is: \DateTime::__set_state(array(
+232-    'date' => '2000-12-30 19:04:05.000000',
+232+    'date' => '2000-12-30 20:04:05.000000',
+        'timezone_type' => 2,
+        'timezone' => 'PDT',
+     ))
+--
+     Formatted DateTime is : 12/30/00, 5:04 PM
+     ------------
+     Date is: \DateTime::__set_state(array(
+240-    'date' => '2000-12-30 19:04:05.000000',
+240+    'date' => '2000-12-30 20:04:05.000000',
+        'timezone_type' => 2,
+        'timezone' => 'PDT',
+     ))
+--

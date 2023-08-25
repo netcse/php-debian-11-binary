@@ -1,0 +1,3 @@
+TSRM/TSRM.lo: /home/smamran09/php-src/TSRM/TSRM.c \
+ /home/smamran09/php-src/TSRM/TSRM.h \
+ /home/smamran09/php-src/main/php_config.h

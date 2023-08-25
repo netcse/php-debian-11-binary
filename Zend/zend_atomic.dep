@@ -1,0 +1,7 @@
+Zend/zend_atomic.lo: /home/smamran09/php-src/Zend/zend_atomic.c \
+ /home/smamran09/php-src/Zend/zend_atomic.h \
+ /home/smamran09/php-src/Zend/zend_portability.h Zend/zend_config.h \
+ Zend/../main/php_config.h /home/smamran09/php-src/Zend/../TSRM/TSRM.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/Zend/zend_range_check.h \
+ /home/smamran09/php-src/Zend/zend_long.h

@@ -1,0 +1,1 @@
+<?php chdir(__DIR__); echo "okey"; ?>

@@ -1,0 +1,1018 @@
+
+=====================================================================
+EXPECTED FAILED TEST SUMMARY
+---------------------------------------------------------------------
+Test open_basedir configuration [tests/security/open_basedir_linkinfo.phpt]  XFAIL REASON: BUG: open_basedir cannot delete symlink to prohibited file. See also
+bugs 48111 and 52176.
+Bug #42718 (unsafe_raw filter not applied when configured as default filter) [ext/filter/tests/bug42718.phpt]  XFAIL REASON: FILTER_UNSAFE_RAW not applied when configured as default filter, even with flags
+Bug #67296 (filter_input doesn't validate variables) [ext/filter/tests/bug49184.phpt]  XFAIL REASON: See Bug #49184
+Bug #67167: filter_var(null,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE) returns null [ext/filter/tests/bug67167.02.phpt]  XFAIL REASON: Requires php_zval_filter to not use convert_to_string for all filters.
+datefmt_format_code() [ext/intl/tests/dateformat_format_variant3.phpt]  XFAIL REASON: This test assumes wrong data wrt to PDT. It is also too big and needs splitting up.
+Return type check elision [ext/opcache/tests/opt/verify_return_type.phpt]  XFAIL REASON: Return types cannot be inferred through prototypes
+via [ext/pdo_sqlite/tests/common.phpt]
+	SQLite PDO Common: PDOStatement::getColumnMeta [ext/pdo_sqlite/tests/pdo_022.phpt]  XFAIL REASON: This feature is not yet finalized, no test makes sense
+updateTimestamp never called when session data is empty [ext/session/tests/user_session_module/bug71162.phpt]  XFAIL REASON: Current session module is designed to write empty session always. In addition, current session module only supports SessionHandlerInterface only from PHP 7.0.
+=====================================================================
+
+=====================================================================
+FAILED TEST SUMMARY
+---------------------------------------------------------------------
+SOAP Bug #71610 - Type Confusion Vulnerability - SOAP / make_http_soap_request() [ext/soap/tests/bug71610.phpt]
+FPM: UNIX socket filename is too for test [sapi/fpm/tests/socket-uds-too-long-filename-test.phpt]
+=====================================================================
+
+=====================================================================
+WARNED TEST SUMMARY
+---------------------------------------------------------------------
+Bug #80067 (Omitting the port in bindto setting errors) [ext/standard/tests/network/bug80067.phpt] (warn: Test passed on retry attempt)
+FPM: Buffered worker output decorated log with multiple continuous messages (stdout/stderr mixed) [sapi/fpm/tests/log-bwd-multiple-msgs-stdout-stderr.phpt] (warn: XFAIL section but test passes)
+=====================================================================
+
+
+=====================================================================
+TEST RESULT SUMMARY
+---------------------------------------------------------------------
+Exts skipped    :    35 (bz2, zend_test, ftp, dba, calendar, sysvshm, pcntl, imap, skeleton, exif, readline, pspell, gmp, odbc, oci8, sodium, pdo_odbc, pdo_dblib, com_dotnet, shmop, ffi, snmp, pdo_firebird, dl_test, gd, enchant, sysvmsg, pdo_oci, ldap, sysvsem, zip, tidy, pdo_pgsql, bcmath, gettext)
+Exts tested     :    38
+---------------------------------------------------------------------
+
+Number of tests : 18634             14968
+Tests skipped   :  3666 ( 19.7%) --------
+Tests warned    :     2 (  0.0%) (  0.0%)
+Tests failed    :     2 (  0.0%) (  0.0%)
+Expected fail   :     8 (  0.0%) (  0.1%)
+Tests passed    : 14956 ( 80.3%) ( 99.9%)
+---------------------------------------------------------------------
+Time taken      :   781 seconds
+=====================================================================
+
+=====================================================================
+EXPECTED FAILED TEST SUMMARY
+---------------------------------------------------------------------
+Test open_basedir configuration [tests/security/open_basedir_linkinfo.phpt]  XFAIL REASON: BUG: open_basedir cannot delete symlink to prohibited file. See also
+bugs 48111 and 52176.
+Bug #42718 (unsafe_raw filter not applied when configured as default filter) [ext/filter/tests/bug42718.phpt]  XFAIL REASON: FILTER_UNSAFE_RAW not applied when configured as default filter, even with flags
+Bug #67296 (filter_input doesn't validate variables) [ext/filter/tests/bug49184.phpt]  XFAIL REASON: See Bug #49184
+Bug #67167: filter_var(null,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE) returns null [ext/filter/tests/bug67167.02.phpt]  XFAIL REASON: Requires php_zval_filter to not use convert_to_string for all filters.
+datefmt_format_code() [ext/intl/tests/dateformat_format_variant3.phpt]  XFAIL REASON: This test assumes wrong data wrt to PDT. It is also too big and needs splitting up.
+Return type check elision [ext/opcache/tests/opt/verify_return_type.phpt]  XFAIL REASON: Return types cannot be inferred through prototypes
+via [ext/pdo_sqlite/tests/common.phpt]
+	SQLite PDO Common: PDOStatement::getColumnMeta [ext/pdo_sqlite/tests/pdo_022.phpt]  XFAIL REASON: This feature is not yet finalized, no test makes sense
+updateTimestamp never called when session data is empty [ext/session/tests/user_session_module/bug71162.phpt]  XFAIL REASON: Current session module is designed to write empty session always. In addition, current session module only supports SessionHandlerInterface only from PHP 7.0.
+=====================================================================
+
+=====================================================================
+FAILED TEST SUMMARY
+---------------------------------------------------------------------
+SOAP Bug #71610 - Type Confusion Vulnerability - SOAP / make_http_soap_request() [ext/soap/tests/bug71610.phpt]
+FPM: UNIX socket filename is too for test [sapi/fpm/tests/socket-uds-too-long-filename-test.phpt]
+=====================================================================
+
+=====================================================================
+WARNED TEST SUMMARY
+---------------------------------------------------------------------
+Bug #80067 (Omitting the port in bindto setting errors) [ext/standard/tests/network/bug80067.phpt] (warn: Test passed on retry attempt)
+FPM: Buffered worker output decorated log with multiple continuous messages (stdout/stderr mixed) [sapi/fpm/tests/log-bwd-multiple-msgs-stdout-stderr.phpt] (warn: XFAIL section but test passes)
+=====================================================================
+
+
+================================================================================
+/home/smamran09/php-src/ext/soap/tests/bug71610.phpt
+================================================================================
+Warning: unserialize(): Extra data starting at offset 147 of 148 bytes in /home/smamran09/php-src/ext/soap/tests/bug71610.php on line 2
+looks like we got no XML document
+================================================================================
+001+ Warning: unserialize(): Extra data starting at offset 147 of 148 bytes in /home/smamran09/php-src/ext/soap/tests/bug71610.php on line 2
+     looks like we got no XML document
+
+================================================================================
+
+
+
+================================================================================
+/home/smamran09/php-src/sapi/fpm/tests/socket-uds-too-long-filename-test.phpt
+================================================================================
+ERROR: The expected config patterns /cannot bind to UNIX socket '\/socket\-file\-fpm\-unix\-socket\-too\-long\-filename\-but\-starts\-anyway\/home\/smamran09\/php\-src\/sapi\/fpm\/tests\.sock' as path is too long \(found length: 107, maximal length: \d+\)/, /FPM initialization failed/ have not been found
+Done
+================================================================================
+001+ ERROR: The expected config patterns /cannot bind to UNIX socket '\/socket\-file\-fpm\-unix\-socket\-too\-long\-filename\-but\-starts\-anyway\/home\/smamran09\/php\-src\/sapi\/fpm\/tests\.sock' as path is too long \(found length: 107, maximal length: \d+\)/, /FPM initialization failed/ have not been found
+     Done
+
+================================================================================
+
+
+
+
+================================================================================
+BUILD ENVIRONMENT
+================================================================================
+OS:
+Linux - Linux cs-332356557847-default 5.15.120+ #1 SMP Wed Aug 9 09:14:11 UTC 2023 x86_64
+
+Autoconf:
+autoconf (GNU Autoconf) 2.69
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+/Autoconf: GNU GPL version 3 or later
+<http://gnu.org/licenses/gpl.html>, <http://gnu.org/licenses/exceptions.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by David J. MacKenzie and Akim Demaille.
+
+Bundled Libtool:
+ltmain.sh (GNU libtool) 1.5.26 (1.1220.2.492 2008/01/30 06:40:56)
+
+Copyright (C) 2008  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+System Libtool:
+N/A
+Compiler:
+Using built-in specs.
+COLLECT_GCC=cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-6' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-Km9U7s/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20210110 (Debian 10.2.1-6) 
+
+Bison:
+bison (GNU Bison) 3.7.5
+Written by Robert Corbett and Richard Stallman.
+
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Libraries:
+	linux-vdso.so.1 (0x00007ffd4a062000)
+	libresolv.so.2 => /usr/lib/x86_64-linux-gnu/libresolv.so.2 (0x00007f2e4a45f000)
+	libpq.so.5 => /usr/lib/x86_64-linux-gnu/libpq.so.5 (0x00007f2e4a40a000)
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f2e4a23d000)
+	libutil.so.1 => /usr/lib/x86_64-linux-gnu/libutil.so.1 (0x00007f2e4a238000)
+	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007f2e4a0f4000)
+	libdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x00007f2e4a0ee000)
+	libxml2.so.2 => /usr/lib/x86_64-linux-gnu/libxml2.so.2 (0x00007f2e49f3c000)
+	libssl.so.1.1 => /usr/lib/x86_64-linux-gnu/libssl.so.1.1 (0x00007f2e49ea9000)
+	libcrypto.so.1.1 => /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 (0x00007f2e49bb5000)
+	libsqlite3.so.0 => /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 (0x00007f2e49a72000)
+	libz.so.1 => /usr/lib/x86_64-linux-gnu/libz.so.1 (0x00007f2e49a55000)
+	libcurl.so.4 => /usr/lib/x86_64-linux-gnu/libcurl.so.4 (0x00007f2e499b9000)
+	libicuio.so.67 => /usr/lib/x86_64-linux-gnu/libicuio.so.67 (0x00007f2e499a8000)
+	libicui18n.so.67 => /usr/lib/x86_64-linux-gnu/libicui18n.so.67 (0x00007f2e496a2000)
+	libicuuc.so.67 => /usr/lib/x86_64-linux-gnu/libicuuc.so.67 (0x00007f2e494b9000)
+	libonig.so.5 => /usr/lib/x86_64-linux-gnu/libonig.so.5 (0x00007f2e49426000)
+	libxslt.so.1 => /usr/lib/x86_64-linux-gnu/libxslt.so.1 (0x00007f2e493e3000)
+	libexslt.so.0 => /usr/lib/x86_64-linux-gnu/libexslt.so.0 (0x00007f2e493ca000)
+	libgcc_s.so.1 => /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f2e493ae000)
+	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007f2e491da000)
+	libgssapi_krb5.so.2 => /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007f2e4917b000)
+	libldap_r-2.4.so.2 => /lib/x86_64-linux-gnu/libldap_r-2.4.so.2 (0x00007f2e49125000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f2e49103000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f2e4baa6000)
+	liblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f2e490d9000)
+	libnghttp2.so.14 => /lib/x86_64-linux-gnu/libnghttp2.so.14 (0x00007f2e490ac000)
+	libidn2.so.0 => /lib/x86_64-linux-gnu/libidn2.so.0 (0x00007f2e4908b000)
+	librtmp.so.1 => /lib/x86_64-linux-gnu/librtmp.so.1 (0x00007f2e4906c000)
+	libssh2.so.1 => /lib/x86_64-linux-gnu/libssh2.so.1 (0x00007f2e49037000)
+	libpsl.so.5 => /lib/x86_64-linux-gnu/libpsl.so.5 (0x00007f2e49023000)
+	liblber-2.4.so.2 => /lib/x86_64-linux-gnu/liblber-2.4.so.2 (0x00007f2e49010000)
+	libbrotlidec.so.1 => /lib/x86_64-linux-gnu/libbrotlidec.so.1 (0x00007f2e49002000)
+	libicudata.so.67 => /lib/x86_64-linux-gnu/libicudata.so.67 (0x00007f2e474e9000)
+	libgcrypt.so.20 => /lib/x86_64-linux-gnu/libgcrypt.so.20 (0x00007f2e473c9000)
+	libkrb5.so.3 => /lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007f2e472ef000)
+	libk5crypto.so.3 => /lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007f2e472bd000)
+	libcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007f2e472b7000)
+	libkrb5support.so.0 => /lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007f2e472a8000)
+	libsasl2.so.2 => /lib/x86_64-linux-gnu/libsasl2.so.2 (0x00007f2e4728b000)
+	libgnutls.so.30 => /lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007f2e4708b000)
+	libunistring.so.2 => /lib/x86_64-linux-gnu/libunistring.so.2 (0x00007f2e46f09000)
+	libhogweed.so.6 => /lib/x86_64-linux-gnu/libhogweed.so.6 (0x00007f2e46ebe000)
+	libnettle.so.8 => /lib/x86_64-linux-gnu/libnettle.so.8 (0x00007f2e46e76000)
+	libgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007f2e46df5000)
+	libbrotlicommon.so.1 => /lib/x86_64-linux-gnu/libbrotlicommon.so.1 (0x00007f2e46dd2000)
+	libgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00007f2e46dac000)
+	libkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007f2e46da3000)
+	libp11-kit.so.0 => /lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007f2e46c6f000)
+	libtasn1.so.6 => /lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007f2e46c59000)
+	libffi.so.7 => /lib/x86_64-linux-gnu/libffi.so.7 (0x00007f2e46c4d000)
+
+
+
+================================================================================
+PHPINFO
+================================================================================
+phpinfo()
+PHP Version => 8.3.0-dev
+
+System => Linux cs-332356557847-default 5.15.120+ #1 SMP Wed Aug 9 09:14:11 UTC 2023 x86_64
+Build Date => Aug 25 2023 03:18:13
+Build System => Linux cs-332356557847-default 5.15.120+ #1 SMP Wed Aug 9 09:14:11 UTC 2023 x86_64 GNU/Linux
+Configure Command =>  './configure'  '--prefix=/opt/php/php8' '--enable-cli' '--enable-fpm' '--enable-intl' '--enable-mbstring' '--enable-opcache' '--enable-sockets' '--enable-soap' '--with-curl' '--with-freetype' '--with-fpm-user=www-data' '--with-fpm-group=www-data' '--with-jpeg' '--with-mysql-sock' '--with-mysqli' '--with-openssl' '--with-pdo-mysql' '--with-pgsql' '--with-xsl' '--with-zlib'
+Server API => Command Line Interface
+Virtual Directory Support => disabled
+Configuration File (php.ini) Path => /opt/php/php8/lib
+Loaded Configuration File => (none)
+Scan this dir for additional .ini files => (none)
+Additional .ini files parsed => (none)
+PHP API => 20220830
+PHP Extension => 20220830
+Zend Extension => 420220830
+Zend Extension Build => API420220830,NTS
+PHP Extension Build => API20220830,NTS
+Debug Build => no
+Thread Safety => disabled
+Zend Signal Handling => enabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => provided by mbstring
+Zend Max Execution Timers => disabled
+IPv6 Support => enabled
+DTrace Support => disabled
+
+Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
+Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2, tlsv1.3
+Registered Stream Filters => zlib.*, convert.iconv.*, string.rot13, string.toupper, string.tolower, convert.*, consumed, dechunk
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v4.3.0-dev, Copyright (c) Zend Technologies
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+Core
+
+PHP Version => 8.3.0-dev
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => STDERR => STDERR
+display_startup_errors => On => On
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => On => On
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_log_mode => 0644 => 0644
+error_prepend_string => no value => no value
+error_reporting => no value => no value
+expose_php => On => On
+extension_dir => /opt/php/php8/lib/php/extensions/no-debug-non-zts-20220830 => /opt/php/php8/lib/php/extensions/no-debug-non-zts-20220830
+fiber.stack_size => no value => no value
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .: => .:
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => Off => Off
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+mail.mixed_lf_and_crlf => Off => Off
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+max_multipart_body_parts => -1 => -1
+memory_limit => 128M => 128M
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => no value => no value
+sendmail_from => no value => no value
+sendmail_path => /usr/sbin/sendmail -t -i => /usr/sbin/sendmail -t -i
+serialize_precision => -1 => -1
+short_open_tag => On => On
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sys_temp_dir => no value => no value
+syslog.facility => LOG_USER => LOG_USER
+syslog.filter => no-ctrl => no-ctrl
+syslog.ident => php => php
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => EGPCS => EGPCS
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => 1 => 1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.exception_ignore_args => Off => Off
+zend.exception_string_param_max_len => 15 => 15
+zend.max_allowed_stack_size => 0 => 0
+zend.multibyte => Off => Off
+zend.reserved_stack_size => 0 => 0
+zend.script_encoding => no value => no value
+zend.signal_check => Off => Off
+
+ctype
+
+ctype functions => enabled
+
+curl
+
+cURL support => enabled
+cURL Information => 7.74.0
+Age => 7
+Features
+AsynchDNS => Yes
+CharConv => No
+Debug => No
+GSS-Negotiate => No
+IDN => Yes
+IPv6 => Yes
+krb4 => No
+Largefile => Yes
+libz => Yes
+NTLM => Yes
+NTLMWB => Yes
+SPNEGO => Yes
+SSL => Yes
+SSPI => No
+TLS-SRP => Yes
+HTTP2 => Yes
+GSSAPI => Yes
+KERBEROS5 => Yes
+UNIX_SOCKETS => Yes
+PSL => Yes
+HTTPS_PROXY => Yes
+MULTI_SSL => No
+BROTLI => Yes
+ALTSVC => Yes
+HTTP3 => No
+UNICODE => No
+ZSTD => No
+HSTS => No
+Protocols => dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Host => x86_64-pc-linux-gnu
+SSL Version => OpenSSL/1.1.1n
+ZLib Version => 1.2.11
+libSSH Version => libssh2/1.9.0
+
+Directive => Local Value => Master Value
+curl.cainfo => no value => no value
+
+date
+
+date/time support => enabled
+timelib version => 2022.09
+"Olson" Timezone Database Version => 2023.3
+Timezone Database => internal
+Default timezone => UTC
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.833333 => 90.833333
+date.sunset_zenith => 90.833333 => 90.833333
+date.timezone => UTC => UTC
+
+dom
+
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.9.14
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled
+
+fileinfo
+
+fileinfo support => enabled
+libmagic => 543
+
+filter
+
+Input Validation and Filtering => enabled
+
+Directive => Local Value => Master Value
+filter.default => unsafe_raw => unsafe_raw
+filter.default_flags => no value => no value
+
+hash
+
+hash support => enabled
+Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat murmur3a murmur3c murmur3f xxh32 xxh64 xxh3 xxh128 haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+iconv
+
+iconv support => enabled
+iconv implementation => glibc
+iconv library version => 2.31
+
+Directive => Local Value => Master Value
+iconv.input_encoding => no value => no value
+iconv.internal_encoding => no value => no value
+iconv.output_encoding => no value => no value
+
+intl
+
+Internationalization support => enabled
+ICU version => 67.1
+ICU Data version => 67.1
+ICU TZData version => 2019c
+ICU Unicode version => 13.0
+
+Directive => Local Value => Master Value
+intl.default_locale => no value => no value
+intl.error_level => 0 => 0
+intl.use_exceptions => Off => Off
+
+json
+
+json support => enabled
+
+libxml
+
+libXML support => active
+libXML Compiled Version => 2.9.14
+libXML Loaded Version => 20914
+libXML streams => enabled
+
+mbstring
+
+Multibyte Support => enabled
+Multibyte string engine => libmbfl
+HTTP input encoding translation => disabled
+libmbfl version => 1.3.2
+
+mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+
+Multibyte (japanese) regex support => enabled
+Multibyte regex (oniguruma) version => 6.9.6
+
+Directive => Local Value => Master Value
+mbstring.detect_order => no value => no value
+mbstring.encoding_translation => Off => Off
+mbstring.http_input => no value => no value
+mbstring.http_output => no value => no value
+mbstring.http_output_conv_mimetypes => ^(text/|application/xhtml\+xml) => ^(text/|application/xhtml\+xml)
+mbstring.internal_encoding => no value => no value
+mbstring.language => neutral => neutral
+mbstring.regex_retry_limit => 1000000 => 1000000
+mbstring.regex_stack_limit => 100000 => 100000
+mbstring.strict_detection => Off => Off
+mbstring.substitute_character => no value => no value
+
+mysqli
+
+MysqlI Support => enabled
+Client API library version => mysqlnd 8.3.0-dev
+Active Persistent Links => 0
+Inactive Persistent Links => 0
+Active Links => 0
+
+Directive => Local Value => Master Value
+mysqli.allow_local_infile => Off => Off
+mysqli.allow_persistent => On => On
+mysqli.default_host => no value => no value
+mysqli.default_port => 3306 => 3306
+mysqli.default_pw => no value => no value
+mysqli.default_socket => no value => no value
+mysqli.default_user => no value => no value
+mysqli.local_infile_directory => no value => no value
+mysqli.max_links => Unlimited => Unlimited
+mysqli.max_persistent => Unlimited => Unlimited
+mysqli.rollback_on_cached_plink => Off => Off
+
+mysqlnd
+
+mysqlnd => enabled
+Version => mysqlnd 8.3.0-dev
+Compression => supported
+core SSL => supported
+extended SSL => supported
+Command buffer size => 4096
+Read buffer size => 32768
+Read timeout => 86400
+Collecting statistics => Yes
+Collecting memory statistics => No
+Tracing => n/a
+Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
+API Extensions => pdo_mysql,mysqli
+
+openssl
+
+OpenSSL support => enabled
+OpenSSL Library Version => OpenSSL 1.1.1n  15 Mar 2022
+OpenSSL Header Version => OpenSSL 1.1.1n  15 Mar 2022
+Openssl default config => /usr/lib/ssl/openssl.cnf
+
+Directive => Local Value => Master Value
+openssl.cafile => no value => no value
+openssl.capath => no value => no value
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 10.40 2022-04-14
+PCRE Unicode Version => 14.0.0
+PCRE JIT Support => enabled
+PCRE JIT Target => x86 64bit (little endian + unaligned)
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.jit => On => On
+pcre.recursion_limit => 100000 => 100000
+
+PDO
+
+PDO support => enabled
+PDO drivers => mysql, sqlite
+
+pdo_mysql
+
+PDO Driver for MySQL => enabled
+Client API version => mysqlnd 8.3.0-dev
+
+Directive => Local Value => Master Value
+pdo_mysql.default_socket => /tmp/mysql.sock => /tmp/mysql.sock
+
+pdo_sqlite
+
+PDO Driver for SQLite 3.x => enabled
+SQLite Library => 3.34.1
+
+pgsql
+
+PostgreSQL Support => enabled
+PostgreSQL (libpq) Version => 15.4
+Multibyte character support => enabled
+Active Persistent Links => 0
+Active Links => 0
+
+Directive => Local Value => Master Value
+pgsql.allow_persistent => On => On
+pgsql.auto_reset_persistent => Off => Off
+pgsql.ignore_notice => Off => Off
+pgsql.log_notice => Off => Off
+pgsql.max_links => Unlimited => Unlimited
+pgsql.max_persistent => Unlimited => Unlimited
+
+Phar
+
+Phar: PHP Archive support => enabled
+Phar API version => 1.1.1
+Phar-based phar archives => enabled
+Tar-based phar archives => enabled
+ZIP-based phar archives => enabled
+gzip compression => enabled
+bzip2 compression => disabled (install ext/bz2)
+Native OpenSSL support => enabled
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive => Local Value => Master Value
+phar.cache_list => no value => no value
+phar.readonly => On => On
+phar.require_hash => On => On
+
+posix
+
+POSIX support => enabled
+
+random
+
+Version => 8.3.0-dev
+
+Reflection
+
+Reflection => enabled
+
+session
+
+Session Support => enabled
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary 
+
+Directive => Local Value => Master Value
+session.auto_start => Off => Off
+session.cache_expire => 180 => 180
+session.cache_limiter => nocache => nocache
+session.cookie_domain => no value => no value
+session.cookie_httponly => Off => Off
+session.cookie_lifetime => 0 => 0
+session.cookie_path => / => /
+session.cookie_samesite => no value => no value
+session.cookie_secure => Off => Off
+session.gc_divisor => 100 => 100
+session.gc_maxlifetime => 1440 => 1440
+session.gc_probability => 1 => 1
+session.lazy_write => On => On
+session.name => PHPSESSID => PHPSESSID
+session.referer_check => no value => no value
+session.save_handler => files => files
+session.save_path => no value => no value
+session.serialize_handler => php => php
+session.sid_bits_per_character => 4 => 4
+session.sid_length => 32 => 32
+session.upload_progress.cleanup => On => On
+session.upload_progress.enabled => On => On
+session.upload_progress.freq => 1% => 1%
+session.upload_progress.min_freq => 1 => 1
+session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix => upload_progress_ => upload_progress_
+session.use_cookies => On => On
+session.use_only_cookies => On => On
+session.use_strict_mode => Off => Off
+session.use_trans_sid => Off => Off
+
+SimpleXML
+
+SimpleXML support => enabled
+Schema support => enabled
+
+soap
+
+Soap Client => enabled
+Soap Server => enabled
+
+Directive => Local Value => Master Value
+soap.wsdl_cache => 1 => 1
+soap.wsdl_cache_dir => /tmp => /tmp
+soap.wsdl_cache_enabled => On => On
+soap.wsdl_cache_limit => 5 => 5
+soap.wsdl_cache_ttl => 86400 => 86400
+
+sockets
+
+Sockets Support => enabled
+
+SPL
+
+SPL support => enabled
+Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+sqlite3
+
+SQLite3 support => enabled
+SQLite Library => 3.34.1
+
+Directive => Local Value => Master Value
+sqlite3.defensive => On => On
+sqlite3.extension_dir => no value => no value
+
+standard
+
+Dynamic Library Support => enabled
+Path to sendmail => /usr/sbin/sendmail -t -i
+
+Directive => Local Value => Master Value
+assert.active => On => On
+assert.bail => Off => Off
+assert.callback => no value => no value
+assert.exception => On => On
+assert.warning => On => On
+auto_detect_line_endings => Off => Off
+default_socket_timeout => 60 => 60
+from => no value => no value
+session.trans_sid_hosts => no value => no value
+session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+unserialize_max_depth => 4096 => 4096
+url_rewriter.hosts => no value => no value
+url_rewriter.tags => form= => form=
+user_agent => no value => no value
+
+tokenizer
+
+Tokenizer Support => enabled
+
+xml
+
+XML Support => active
+XML Namespace Support => active
+libxml2 Version => 2.9.14
+
+xmlreader
+
+XMLReader => enabled
+
+xmlwriter
+
+XMLWriter => enabled
+
+xsl
+
+XSL => enabled
+libxslt Version => 1.1.34
+libxslt compiled against libxml Version => 2.9.10
+EXSLT => enabled
+libexslt Version => 1.1.34
+
+zlib
+
+ZLib Support => enabled
+Stream Wrapper => compress.zlib://
+Stream Filter => zlib.inflate, zlib.deflate
+Compiled Version => 1.2.11
+Linked Version => 1.2.11
+
+Directive => Local Value => Master Value
+zlib.output_compression => Off => Off
+zlib.output_compression_level => -1 => -1
+zlib.output_handler => no value => no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable => Value
+SHELL => /bin/bash
+USE_CLOUD_SDK_PYTHON3 =>  
+TMUX => /tmp/tmux-1000/default,584,0
+GOOGLE_CLOUD_SHELL => true
+HISTSIZE => 1000
+MAKE_TERMOUT => /dev/pts/2
+JAVA_HOME => /usr/lib/jvm/java-11-openjdk-amd64
+CLOUD_SHELL => true
+SSH_AUTH_SOCK => deleted
+TEST_PHP_SRCDIR => /home/smamran09/php-src
+DEVSHELL_PROJECT_ID =>  
+DOTNET_SKIP_FIRST_TIME_EXPERIENCE => 1
+ASPNETCORE_URLS => http://*:8080
+EVENT_NOEPOLL => 1
+PWD => /home/smamran09/php-src
+LOGNAME => smamran09
+_ => /home/smamran09/php-src/sapi/cli/php
+DEVSHELL_CLIENTS_DIR => /var/run/google/devshell
+WEB_HOST => cs-332356557847-default.cs-asia-southeast1-ajrg.cloudshell.dev
+HOME => /home/smamran09
+LANG => en_US.UTF-8
+LS_COLORS => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+CLOUDSDK_CONFIG => /tmp/tmp.sgVv8yu5fv
+MINIKUBE_FORCE_SYSTEMD => true
+DEVSHELL_SERVER_URL => https://ssh.cloud.google.com
+PROMPT_COMMAND => history -a;enableHistoryAppend &> /dev/null;update_devshell_project_id &> /dev/null ; update_devshell_project_id &> /dev/null
+TEST_PHPDBG_EXECUTABLE_ESCAPED => '/home/smamran09/php-src/sapi/phpdbg/phpdbg'
+SSH_CONNECTION => deleted
+MFLAGS =>  
+CLOUDSDK_PYTHON => python3
+TEST_PHP_CGI_EXECUTABLE => /home/smamran09/php-src/sapi/cgi/php-cgi
+CUSTOM_ENVIRONMENT =>  
+GEM_PATH => /home/smamran09/.gems:/usr/local/lib/ruby/gems/2.7.0/
+GEM_HOME => /home/smamran09/.gems
+MAKEFLAGS =>  
+CLOUDSHELL_OPEN_DIR => cloudshell_open
+TERM => screen
+CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_ALLOWLIST => compute/gce_metadata_read_timeout_sec
+TEST_PHPDBG_EXECUTABLE => /home/smamran09/php-src/sapi/phpdbg/phpdbg
+USER => smamran09
+TMUX_PANE => %0
+MAKE_TERMERR => /dev/pts/2
+CLOUD_SHELL_IMAGE_VERSION =>  
+GCE_METADATA_HOST => 169.254.169.254
+BASHRC_PATH => /home/smamran09/.bashrc
+CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_WHITELIST => compute/gce_metadata_read_timeout_sec
+SHLVL => 5
+TRUSTED_ENVIRONMENT => true
+__TMP_CLOUDSDK_CONFIG => /tmp/tmp.sgVv8yu5fv
+MAKELEVEL => 1
+CLOUDSHELL_ENVIRONMENT => prod
+USER_EMAIL => smamran09@gmail.com
+ACTIVE_CUSTOM_IMAGE =>  
+BASHRC_GOOGLE_PATH => /google/devshell/bashrc.google
+SSH_CLIENT => deleted
+MINIKUBE_HOME => /google/minikube
+DOCKER_HOST => unix:///var/run/docker.sock
+DEVSHELL_IP_ADDRESS =>  
+TEST_PHP_CGI_EXECUTABLE_ESCAPED => '/home/smamran09/php-src/sapi/cgi/php-cgi'
+V2V_GCP_V2V_IMAGE => projects/v2v-community/global/images/family/v2v-stable
+BROWSER => echo
+PATH => /opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/nvm/versions/node/v18.12.1/bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/google/migrate/anthos/:/home/smamran09/.gems/bin:/usr/local/rvm/bin:/home/smamran09/gopath/bin:/google/gopath/bin:/google/flutter/bin
+CC => cc
+HISTFILESIZE => 1000
+TEST_PHP_EXECUTABLE => /home/smamran09/php-src/sapi/cli/php
+SSH_TTY => deleted
+DEVSHELL_GCLOUD_CONFIG => cloudshell-2934
+USE_GKE_GCLOUD_AUTH_PLUGIN => True
+API_DOGFOOD =>  
+OLDPWD => /home/smamran09
+GOPATH => /home/smamran09/gopath:/google/gopath
+MINIKUBE_WANTUPDATENOTIFICATION => false
+CREDENTIALS_SERVICE_PORT => 8998
+TEST_PHP_EXECUTABLE_ESCAPED => '/home/smamran09/php-src/sapi/cli/php'
+
+PHP Variables
+
+Variable => Value
+$_SERVER['SHELL'] => /bin/bash
+$_SERVER['USE_CLOUD_SDK_PYTHON3'] => 
+$_SERVER['TMUX'] => /tmp/tmux-1000/default,584,0
+$_SERVER['GOOGLE_CLOUD_SHELL'] => true
+$_SERVER['HISTSIZE'] => 1000
+$_SERVER['MAKE_TERMOUT'] => /dev/pts/2
+$_SERVER['JAVA_HOME'] => /usr/lib/jvm/java-11-openjdk-amd64
+$_SERVER['CLOUD_SHELL'] => true
+$_SERVER['SSH_AUTH_SOCK'] => deleted
+$_SERVER['TEST_PHP_SRCDIR'] => /home/smamran09/php-src
+$_SERVER['DEVSHELL_PROJECT_ID'] => 
+$_SERVER['DOTNET_SKIP_FIRST_TIME_EXPERIENCE'] => 1
+$_SERVER['ASPNETCORE_URLS'] => http://*:8080
+$_SERVER['EVENT_NOEPOLL'] => 1
+$_SERVER['PWD'] => /home/smamran09/php-src
+$_SERVER['LOGNAME'] => smamran09
+$_SERVER['_'] => /home/smamran09/php-src/sapi/cli/php
+$_SERVER['DEVSHELL_CLIENTS_DIR'] => /var/run/google/devshell
+$_SERVER['WEB_HOST'] => cs-332356557847-default.cs-asia-southeast1-ajrg.cloudshell.dev
+$_SERVER['HOME'] => /home/smamran09
+$_SERVER['LANG'] => en_US.UTF-8
+$_SERVER['LS_COLORS'] => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+$_SERVER['CLOUDSDK_CONFIG'] => /tmp/tmp.sgVv8yu5fv
+$_SERVER['MINIKUBE_FORCE_SYSTEMD'] => true
+$_SERVER['DEVSHELL_SERVER_URL'] => https://ssh.cloud.google.com
+$_SERVER['PROMPT_COMMAND'] => history -a;enableHistoryAppend &> /dev/null;update_devshell_project_id &> /dev/null ; update_devshell_project_id &> /dev/null
+$_SERVER['TEST_PHPDBG_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/phpdbg/phpdbg'
+$_SERVER['SSH_CONNECTION'] => deleted
+$_SERVER['MFLAGS'] => 
+$_SERVER['CLOUDSDK_PYTHON'] => python3
+$_SERVER['TEST_PHP_CGI_EXECUTABLE'] => /home/smamran09/php-src/sapi/cgi/php-cgi
+$_SERVER['CUSTOM_ENVIRONMENT'] => 
+$_SERVER['GEM_PATH'] => /home/smamran09/.gems:/usr/local/lib/ruby/gems/2.7.0/
+$_SERVER['GEM_HOME'] => /home/smamran09/.gems
+$_SERVER['MAKEFLAGS'] => 
+$_SERVER['CLOUDSHELL_OPEN_DIR'] => cloudshell_open
+$_SERVER['TERM'] => screen
+$_SERVER['CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_ALLOWLIST'] => compute/gce_metadata_read_timeout_sec
+$_SERVER['TEST_PHPDBG_EXECUTABLE'] => /home/smamran09/php-src/sapi/phpdbg/phpdbg
+$_SERVER['USER'] => smamran09
+$_SERVER['TMUX_PANE'] => %0
+$_SERVER['MAKE_TERMERR'] => /dev/pts/2
+$_SERVER['CLOUD_SHELL_IMAGE_VERSION'] => 
+$_SERVER['GCE_METADATA_HOST'] => 169.254.169.254
+$_SERVER['BASHRC_PATH'] => /home/smamran09/.bashrc
+$_SERVER['CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_WHITELIST'] => compute/gce_metadata_read_timeout_sec
+$_SERVER['SHLVL'] => 5
+$_SERVER['TRUSTED_ENVIRONMENT'] => true
+$_SERVER['__TMP_CLOUDSDK_CONFIG'] => /tmp/tmp.sgVv8yu5fv
+$_SERVER['MAKELEVEL'] => 1
+$_SERVER['CLOUDSHELL_ENVIRONMENT'] => prod
+$_SERVER['USER_EMAIL'] => smamran09@gmail.com
+$_SERVER['ACTIVE_CUSTOM_IMAGE'] => 
+$_SERVER['BASHRC_GOOGLE_PATH'] => /google/devshell/bashrc.google
+$_SERVER['SSH_CLIENT'] => deleted
+$_SERVER['MINIKUBE_HOME'] => /google/minikube
+$_SERVER['DOCKER_HOST'] => unix:///var/run/docker.sock
+$_SERVER['DEVSHELL_IP_ADDRESS'] => 
+$_SERVER['TEST_PHP_CGI_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/cgi/php-cgi'
+$_SERVER['V2V_GCP_V2V_IMAGE'] => projects/v2v-community/global/images/family/v2v-stable
+$_SERVER['BROWSER'] => echo
+$_SERVER['PATH'] => /opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/nvm/versions/node/v18.12.1/bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/google/migrate/anthos/:/home/smamran09/.gems/bin:/usr/local/rvm/bin:/home/smamran09/gopath/bin:/google/gopath/bin:/google/flutter/bin
+$_SERVER['CC'] => cc
+$_SERVER['HISTFILESIZE'] => 1000
+$_SERVER['TEST_PHP_EXECUTABLE'] => /home/smamran09/php-src/sapi/cli/php
+$_SERVER['SSH_TTY'] => deleted
+$_SERVER['DEVSHELL_GCLOUD_CONFIG'] => cloudshell-2934
+$_SERVER['USE_GKE_GCLOUD_AUTH_PLUGIN'] => True
+$_SERVER['API_DOGFOOD'] => 
+$_SERVER['OLDPWD'] => /home/smamran09
+$_SERVER['GOPATH'] => /home/smamran09/gopath:/google/gopath
+$_SERVER['MINIKUBE_WANTUPDATENOTIFICATION'] => false
+$_SERVER['CREDENTIALS_SERVICE_PORT'] => 8998
+$_SERVER['TEST_PHP_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/cli/php'
+$_SERVER['PHP_SELF'] => 
+$_SERVER['SCRIPT_NAME'] => 
+$_SERVER['SCRIPT_FILENAME'] => 
+$_SERVER['PATH_TRANSLATED'] => 
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1692934709.8231
+$_SERVER['REQUEST_TIME'] => 1692934709
+$_SERVER['argv'] => Array
+(
+)
+
+$_SERVER['argc'] => 0
+$_ENV['SHELL'] => /bin/bash
+$_ENV['USE_CLOUD_SDK_PYTHON3'] => 
+$_ENV['TMUX'] => /tmp/tmux-1000/default,584,0
+$_ENV['GOOGLE_CLOUD_SHELL'] => true
+$_ENV['HISTSIZE'] => 1000
+$_ENV['MAKE_TERMOUT'] => /dev/pts/2
+$_ENV['JAVA_HOME'] => /usr/lib/jvm/java-11-openjdk-amd64
+$_ENV['CLOUD_SHELL'] => true
+$_ENV['SSH_AUTH_SOCK'] => deleted
+$_ENV['TEST_PHP_SRCDIR'] => /home/smamran09/php-src
+$_ENV['DEVSHELL_PROJECT_ID'] => 
+$_ENV['DOTNET_SKIP_FIRST_TIME_EXPERIENCE'] => 1
+$_ENV['ASPNETCORE_URLS'] => http://*:8080
+$_ENV['EVENT_NOEPOLL'] => 1
+$_ENV['PWD'] => /home/smamran09/php-src
+$_ENV['LOGNAME'] => smamran09
+$_ENV['_'] => /home/smamran09/php-src/sapi/cli/php
+$_ENV['DEVSHELL_CLIENTS_DIR'] => /var/run/google/devshell
+$_ENV['WEB_HOST'] => cs-332356557847-default.cs-asia-southeast1-ajrg.cloudshell.dev
+$_ENV['HOME'] => /home/smamran09
+$_ENV['LANG'] => en_US.UTF-8
+$_ENV['LS_COLORS'] => rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+$_ENV['CLOUDSDK_CONFIG'] => /tmp/tmp.sgVv8yu5fv
+$_ENV['MINIKUBE_FORCE_SYSTEMD'] => true
+$_ENV['DEVSHELL_SERVER_URL'] => https://ssh.cloud.google.com
+$_ENV['PROMPT_COMMAND'] => history -a;enableHistoryAppend &> /dev/null;update_devshell_project_id &> /dev/null ; update_devshell_project_id &> /dev/null
+$_ENV['TEST_PHPDBG_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/phpdbg/phpdbg'
+$_ENV['SSH_CONNECTION'] => deleted
+$_ENV['MFLAGS'] => 
+$_ENV['CLOUDSDK_PYTHON'] => python3
+$_ENV['TEST_PHP_CGI_EXECUTABLE'] => /home/smamran09/php-src/sapi/cgi/php-cgi
+$_ENV['CUSTOM_ENVIRONMENT'] => 
+$_ENV['GEM_PATH'] => /home/smamran09/.gems:/usr/local/lib/ruby/gems/2.7.0/
+$_ENV['GEM_HOME'] => /home/smamran09/.gems
+$_ENV['MAKEFLAGS'] => 
+$_ENV['CLOUDSHELL_OPEN_DIR'] => cloudshell_open
+$_ENV['TERM'] => screen
+$_ENV['CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_ALLOWLIST'] => compute/gce_metadata_read_timeout_sec
+$_ENV['TEST_PHPDBG_EXECUTABLE'] => /home/smamran09/php-src/sapi/phpdbg/phpdbg
+$_ENV['USER'] => smamran09
+$_ENV['TMUX_PANE'] => %0
+$_ENV['MAKE_TERMERR'] => /dev/pts/2
+$_ENV['CLOUD_SHELL_IMAGE_VERSION'] => 
+$_ENV['GCE_METADATA_HOST'] => 169.254.169.254
+$_ENV['BASHRC_PATH'] => /home/smamran09/.bashrc
+$_ENV['CLOUDSDK_DIAGNOSTICS_HIDDEN_PROPERTY_WHITELIST'] => compute/gce_metadata_read_timeout_sec
+$_ENV['SHLVL'] => 5
+$_ENV['TRUSTED_ENVIRONMENT'] => true
+$_ENV['__TMP_CLOUDSDK_CONFIG'] => /tmp/tmp.sgVv8yu5fv
+$_ENV['MAKELEVEL'] => 1
+$_ENV['CLOUDSHELL_ENVIRONMENT'] => prod
+$_ENV['USER_EMAIL'] => smamran09@gmail.com
+$_ENV['ACTIVE_CUSTOM_IMAGE'] => 
+$_ENV['BASHRC_GOOGLE_PATH'] => /google/devshell/bashrc.google
+$_ENV['SSH_CLIENT'] => deleted
+$_ENV['MINIKUBE_HOME'] => /google/minikube
+$_ENV['DOCKER_HOST'] => unix:///var/run/docker.sock
+$_ENV['DEVSHELL_IP_ADDRESS'] => 
+$_ENV['TEST_PHP_CGI_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/cgi/php-cgi'
+$_ENV['V2V_GCP_V2V_IMAGE'] => projects/v2v-community/global/images/family/v2v-stable
+$_ENV['BROWSER'] => echo
+$_ENV['PATH'] => /opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/nvm/versions/node/v18.12.1/bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/google/migrate/anthos/:/home/smamran09/.gems/bin:/usr/local/rvm/bin:/home/smamran09/gopath/bin:/google/gopath/bin:/google/flutter/bin
+$_ENV['CC'] => cc
+$_ENV['HISTFILESIZE'] => 1000
+$_ENV['TEST_PHP_EXECUTABLE'] => /home/smamran09/php-src/sapi/cli/php
+$_ENV['SSH_TTY'] => deleted
+$_ENV['DEVSHELL_GCLOUD_CONFIG'] => cloudshell-2934
+$_ENV['USE_GKE_GCLOUD_AUTH_PLUGIN'] => True
+$_ENV['API_DOGFOOD'] => 
+$_ENV['OLDPWD'] => /home/smamran09
+$_ENV['GOPATH'] => /home/smamran09/gopath:/google/gopath
+$_ENV['MINIKUBE_WANTUPDATENOTIFICATION'] => false
+$_ENV['CREDENTIALS_SERVICE_PORT'] => 8998
+$_ENV['TEST_PHP_EXECUTABLE_ESCAPED'] => '/home/smamran09/php-src/sapi/cli/php'
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.

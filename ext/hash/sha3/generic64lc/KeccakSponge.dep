@@ -1,0 +1,8 @@
+ext/hash/sha3/generic64lc/KeccakSponge.lo: \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakSponge.c \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakSponge.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/align.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-SnP.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/brg_endian.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakP-1600-opt64-config.h \
+ /home/smamran09/php-src/ext/hash/sha3/generic64lc/KeccakSponge.inc

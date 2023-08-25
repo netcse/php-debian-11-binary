@@ -1,0 +1,1 @@
+<?php header("X-Request-Method: ".$_SERVER["REQUEST_METHOD"]); ?>

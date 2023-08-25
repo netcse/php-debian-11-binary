@@ -1,0 +1,1 @@
+<?php header('WWW-Authenticate: Digest realm="foo",qop="auth",nonce="XXXXX",opaque="acbd18db4cc2f85cedef654fccc4a4d8"'); ?>

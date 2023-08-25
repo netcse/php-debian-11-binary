@@ -1,0 +1,1 @@
+<?php var_dump(isset($_SERVER["CONTENT_TYPE"]), isset($_SERVER["CONTENT_LENGTH"])) ?>

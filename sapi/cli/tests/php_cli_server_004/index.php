@@ -1,0 +1,1 @@
+<?php foreach($_SERVER as $k=>$v) { if (!strncmp($k, "HTTP", 4)) var_dump( $k . ":" . $v); } ?>

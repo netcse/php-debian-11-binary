@@ -1,0 +1,4 @@
+ext/hash/murmur/PMurHash128.lo: \
+ /home/smamran09/php-src/ext/hash/murmur/PMurHash128.c \
+ /home/smamran09/php-src/ext/hash/murmur/PMurHash128.h \
+ /home/smamran09/php-src/ext/hash/murmur/endianness.h

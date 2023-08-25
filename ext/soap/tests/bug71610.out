@@ -1,0 +1,2 @@
+Warning: unserialize(): Extra data starting at offset 147 of 148 bytes in /home/smamran09/php-src/ext/soap/tests/bug71610.php on line 2
+looks like we got no XML document

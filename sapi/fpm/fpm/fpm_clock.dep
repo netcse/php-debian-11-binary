@@ -1,0 +1,6 @@
+sapi/fpm/fpm/fpm_clock.lo: \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_clock.c \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_config.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/fpm_clock.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/zlog.h

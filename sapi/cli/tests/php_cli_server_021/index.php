@@ -1,0 +1,1 @@
+<?php var_dump(!isset($_SERVER["PHP_AUTH_USER"]), !isset($_SERVER["PHP_AUTH_PW"]), $_SERVER["PHP_AUTH_DIGEST"]); ?>

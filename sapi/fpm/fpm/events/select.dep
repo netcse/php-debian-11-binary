@@ -1,0 +1,7 @@
+sapi/fpm/fpm/events/select.lo: \
+ /home/smamran09/php-src/sapi/fpm/fpm/events/select.c \
+ /home/smamran09/php-src/sapi/fpm/fpm/events/../fpm_config.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/events/../fpm_events.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/events/../fpm.h \
+ /home/smamran09/php-src/sapi/fpm/fpm/events/../zlog.h

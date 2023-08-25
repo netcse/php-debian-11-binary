@@ -1,0 +1,1 @@
+<?php print_r($_REQUEST); $_REQUEST["foo"] = "bar"; return FALSE; ?>

@@ -1,0 +1,1 @@
+<?php var_dump($_SERVER["PHP_SELF"], $_SERVER["SCRIPT_NAME"], $_SERVER["PATH_INFO"], $_SERVER["QUERY_STRING"]); ?>

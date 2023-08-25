@@ -1,0 +1,2 @@
+001+ ERROR: The expected config patterns /cannot bind to UNIX socket '\/socket\-file\-fpm\-unix\-socket\-too\-long\-filename\-but\-starts\-anyway\/home\/smamran09\/php\-src\/sapi\/fpm\/tests\.sock' as path is too long \(found length: 107, maximal length: \d+\)/, /FPM initialization failed/ have not been found
+     Done

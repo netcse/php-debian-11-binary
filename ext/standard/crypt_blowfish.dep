@@ -1,0 +1,3 @@
+ext/standard/crypt_blowfish.lo: \
+ /home/smamran09/php-src/ext/standard/crypt_blowfish.c \
+ /home/smamran09/php-src/ext/standard/crypt_blowfish.h

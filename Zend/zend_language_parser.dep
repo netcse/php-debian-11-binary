@@ -1,0 +1,54 @@
+Zend/zend_language_parser.lo: \
+ /home/smamran09/php-src/Zend/zend_language_parser.c \
+ /home/smamran09/php-src/Zend/zend.h \
+ /home/smamran09/php-src/Zend/zend_types.h \
+ /home/smamran09/php-src/Zend/zend_portability.h Zend/zend_config.h \
+ Zend/../main/php_config.h /home/smamran09/php-src/Zend/../TSRM/TSRM.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/Zend/zend_range_check.h \
+ /home/smamran09/php-src/Zend/zend_long.h \
+ /home/smamran09/php-src/Zend/zend_map_ptr.h \
+ /home/smamran09/php-src/Zend/zend_errors.h \
+ /home/smamran09/php-src/Zend/zend_alloc.h \
+ /home/smamran09/php-src/Zend/zend_alloc_sizes.h \
+ /home/smamran09/php-src/Zend/zend_llist.h \
+ /home/smamran09/php-src/Zend/zend_string.h \
+ /home/smamran09/php-src/Zend/zend_hash.h \
+ /home/smamran09/php-src/Zend/zend_sort.h \
+ /home/smamran09/php-src/Zend/zend_ast.h \
+ /home/smamran09/php-src/Zend/zend_gc.h \
+ /home/smamran09/php-src/Zend/zend_hrtime.h \
+ /home/smamran09/php-src/Zend/zend_variables.h \
+ /home/smamran09/php-src/Zend/zend_iterators.h \
+ /home/smamran09/php-src/Zend/zend_stream.h \
+ /home/smamran09/php-src/Zend/zend_smart_str_public.h \
+ /home/smamran09/php-src/Zend/zend_smart_string_public.h \
+ /home/smamran09/php-src/Zend/zend_signal.h \
+ /home/smamran09/php-src/Zend/zend_max_execution_timer.h \
+ /home/smamran09/php-src/Zend/zend_object_handlers.h \
+ /home/smamran09/php-src/Zend/zend_operators.h \
+ /home/smamran09/php-src/Zend/zend_strtod.h Zend/zend.h \
+ /home/smamran09/php-src/Zend/zend_multiply.h \
+ /home/smamran09/php-src/Zend/zend_list.h \
+ /home/smamran09/php-src/Zend/zend_globals.h \
+ /home/smamran09/php-src/Zend/zend_globals_macros.h \
+ /home/smamran09/php-src/Zend/zend_atomic.h \
+ /home/smamran09/php-src/Zend/zend_stack.h \
+ /home/smamran09/php-src/Zend/zend_ptr_stack.h \
+ /home/smamran09/php-src/Zend/zend_objects.h \
+ /home/smamran09/php-src/Zend/zend_objects_API.h \
+ /home/smamran09/php-src/Zend/zend_compile.h \
+ /home/smamran09/php-src/Zend/zend_vm_opcodes.h \
+ /home/smamran09/php-src/Zend/zend_modules.h \
+ /home/smamran09/php-src/Zend/zend_build.h \
+ /home/smamran09/php-src/Zend/zend_float.h \
+ /home/smamran09/php-src/Zend/zend_multibyte.h \
+ /home/smamran09/php-src/Zend/zend_arena.h \
+ /home/smamran09/php-src/Zend/zend_call_stack.h \
+ /home/smamran09/php-src/Zend/zend_API.h \
+ /home/smamran09/php-src/Zend/zend_execute.h \
+ /home/smamran09/php-src/Zend/zend_type_info.h \
+ /home/smamran09/php-src/Zend/zend_constants.h \
+ /home/smamran09/php-src/Zend/zend_language_scanner.h \
+ /home/smamran09/php-src/Zend/zend_exceptions.h \
+ /home/smamran09/php-src/Zend/zend_language_parser.h

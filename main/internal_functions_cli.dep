@@ -1,0 +1,207 @@
+main/internal_functions_cli.lo: main/internal_functions_cli.c main/php.h \
+ main/php_version.h /home/smamran09/php-src/Zend/zend.h \
+ /home/smamran09/php-src/Zend/zend_types.h \
+ /home/smamran09/php-src/Zend/zend_portability.h \
+ /home/smamran09/php-src/Zend/zend_config.h main/../main/php_config.h \
+ /home/smamran09/php-src/Zend/../TSRM/TSRM.h \
+ /home/smamran09/php-src/main/php_config.h \
+ /home/smamran09/php-src/Zend/zend_range_check.h \
+ /home/smamran09/php-src/Zend/zend_long.h \
+ /home/smamran09/php-src/Zend/zend_map_ptr.h \
+ /home/smamran09/php-src/Zend/zend_errors.h \
+ /home/smamran09/php-src/Zend/zend_alloc.h \
+ /home/smamran09/php-src/Zend/zend.h \
+ /home/smamran09/php-src/Zend/zend_alloc_sizes.h \
+ /home/smamran09/php-src/Zend/zend_llist.h \
+ /home/smamran09/php-src/Zend/zend_string.h \
+ /home/smamran09/php-src/Zend/zend_hash.h \
+ /home/smamran09/php-src/Zend/zend_sort.h \
+ /home/smamran09/php-src/Zend/zend_ast.h \
+ /home/smamran09/php-src/Zend/zend_gc.h \
+ /home/smamran09/php-src/Zend/zend_hrtime.h \
+ /home/smamran09/php-src/Zend/zend_variables.h \
+ /home/smamran09/php-src/Zend/zend_iterators.h \
+ /home/smamran09/php-src/Zend/zend_stream.h \
+ /home/smamran09/php-src/Zend/zend_smart_str_public.h \
+ /home/smamran09/php-src/Zend/zend_smart_string_public.h \
+ /home/smamran09/php-src/Zend/zend_signal.h \
+ /home/smamran09/php-src/Zend/zend_max_execution_timer.h \
+ /home/smamran09/php-src/Zend/zend_object_handlers.h \
+ /home/smamran09/php-src/Zend/zend_operators.h \
+ /home/smamran09/php-src/Zend/zend_strtod.h \
+ /home/smamran09/php-src/Zend/zend_multiply.h \
+ /home/smamran09/php-src/Zend/zend_sort.h main/php_compat.h \
+ main/php_config.h /home/smamran09/php-src/Zend/zend_API.h \
+ /home/smamran09/php-src/Zend/zend_modules.h \
+ /home/smamran09/php-src/Zend/zend_compile.h \
+ /home/smamran09/php-src/Zend/zend_globals.h \
+ /home/smamran09/php-src/Zend/zend_globals_macros.h \
+ /home/smamran09/php-src/Zend/zend_atomic.h \
+ /home/smamran09/php-src/Zend/zend_stack.h \
+ /home/smamran09/php-src/Zend/zend_ptr_stack.h \
+ /home/smamran09/php-src/Zend/zend_objects.h \
+ /home/smamran09/php-src/Zend/zend_objects_API.h \
+ /home/smamran09/php-src/Zend/zend_float.h \
+ /home/smamran09/php-src/Zend/zend_multibyte.h \
+ /home/smamran09/php-src/Zend/zend_arena.h \
+ /home/smamran09/php-src/Zend/zend_call_stack.h \
+ /home/smamran09/php-src/Zend/zend_vm_opcodes.h \
+ /home/smamran09/php-src/Zend/zend_build.h \
+ /home/smamran09/php-src/Zend/zend_list.h \
+ /home/smamran09/php-src/Zend/zend_execute.h \
+ /home/smamran09/php-src/Zend/zend_type_info.h main/build-defs.h \
+ /home/smamran09/php-src/Zend/zend_hash.h \
+ /home/smamran09/php-src/Zend/zend_alloc.h \
+ /home/smamran09/php-src/Zend/zend_stack.h main/snprintf.h \
+ main/spprintf.h /home/smamran09/php-src/Zend/zend_smart_str_public.h \
+ /home/smamran09/php-src/Zend/zend_smart_string_public.h \
+ main/php_syslog.h /home/smamran09/php-src/main/php_output.h \
+ main/php_streams.h /home/smamran09/php-src/Zend/zend_stream.h \
+ main/streams/php_stream_context.h main/streams/php_stream_filter_api.h \
+ main/streams/php_stream_transport.h \
+ main/streams/php_stream_plain_wrapper.h \
+ main/streams/php_stream_glob_wrapper.h \
+ main/streams/php_stream_userspace.h main/streams/php_stream_mmap.h \
+ main/php_memory_streams.h main/fopen_wrappers.h main/php_globals.h \
+ /home/smamran09/php-src/Zend/zend_globals.h main/php_ini.h \
+ /home/smamran09/php-src/Zend/zend_ini.h \
+ /home/smamran09/php-src/Zend/zend_virtual_cwd.h \
+ /home/smamran09/php-src/TSRM/TSRM.h \
+ /home/smamran09/php-src/Zend/zend_constants.h main/php_reentrancy.h \
+ main/php_main.h main/SAPI.h /home/smamran09/php-src/Zend/zend_llist.h \
+ /home/smamran09/php-src/Zend/zend_operators.h \
+ /home/smamran09/php-src/Zend/zend_modules.h \
+ /home/smamran09/php-src/Zend/zend_compile.h \
+ /home/smamran09/php-src/ext/date/php_date.h \
+ /home/smamran09/php-src/ext/date/lib/timelib.h \
+ /home/smamran09/php-src/ext/date/lib/timelib_config.h \
+ /home/smamran09/php-src/Zend/zend_hash.h main/php_version.h \
+ /home/smamran09/php-src/ext/libxml/php_libxml.h \
+ /home/smamran09/php-src/Zend/zend_smart_str.h \
+ /usr/include/libxml2/libxml/tree.h \
+ /usr/include/libxml2/libxml/xmlversion.h \
+ /usr/include/libxml2/libxml/xmlexports.h \
+ /usr/include/libxml2/libxml/xmlstring.h \
+ /usr/include/libxml2/libxml/xmlregexp.h \
+ /usr/include/libxml2/libxml/dict.h \
+ /usr/include/libxml2/libxml/xmlmemory.h \
+ /usr/include/libxml2/libxml/threads.h \
+ /usr/include/libxml2/libxml/globals.h \
+ /usr/include/libxml2/libxml/parser.h /usr/include/libxml2/libxml/hash.h \
+ /usr/include/libxml2/libxml/valid.h \
+ /usr/include/libxml2/libxml/xmlerror.h \
+ /usr/include/libxml2/libxml/list.h \
+ /usr/include/libxml2/libxml/xmlautomata.h \
+ /usr/include/libxml2/libxml/entities.h \
+ /usr/include/libxml2/libxml/encoding.h \
+ /usr/include/libxml2/libxml/xmlIO.h /usr/include/libxml2/libxml/SAX2.h \
+ /usr/include/libxml2/libxml/xlink.h \
+ /home/smamran09/php-src/ext/openssl/php_openssl.h \
+ /home/smamran09/php-src/ext/pcre/php_pcre.h \
+ /home/smamran09/php-src/ext/pcre/pcre2lib/pcre2.h \
+ /home/smamran09/php-src/ext/sqlite3/php_sqlite3.h \
+ /home/smamran09/php-src/ext/zlib/php_zlib.h \
+ /home/smamran09/php-src/ext/ctype/php_ctype.h \
+ /home/smamran09/php-src/ext/curl/php_curl.h main/php.h \
+ /home/smamran09/php-src/ext/dom/php_dom.h \
+ /usr/include/libxml2/libxml/parserInternals.h \
+ /usr/include/libxml2/libxml/HTMLparser.h \
+ /usr/include/libxml2/libxml/chvalid.h /usr/include/libxml2/libxml/uri.h \
+ /usr/include/libxml2/libxml/xinclude.h \
+ /usr/include/libxml2/libxml/c14n.h /usr/include/libxml2/libxml/xpath.h \
+ /usr/include/libxml2/libxml/HTMLtree.h \
+ /usr/include/libxml2/libxml/xpathInternals.h \
+ /usr/include/libxml2/libxml/xpointer.h \
+ /home/smamran09/php-src/ext/dom/xml_common.h \
+ /home/smamran09/php-src/Zend/zend_exceptions.h \
+ /home/smamran09/php-src/ext/dom/dom_ce.h \
+ /home/smamran09/php-src/ext/dom/domexception.h \
+ /home/smamran09/php-src/ext/fileinfo/php_fileinfo.h \
+ /home/smamran09/php-src/ext/filter/php_filter.h main/SAPI.h \
+ main/php_ini.h /home/smamran09/php-src/ext/standard/info.h \
+ /home/smamran09/php-src/ext/standard/php_string.h \
+ /home/smamran09/php-src/ext/random/php_random.h \
+ /home/smamran09/php-src/ext/standard/html.h main/php_variables.h \
+ /home/smamran09/php-src/ext/hash/php_hash.h \
+ /home/smamran09/php-src/ext/iconv/php_iconv.h \
+ /home/smamran09/php-src/ext/intl/php_intl.h \
+ /home/smamran09/php-src/ext/intl/collator/collator_sort.h \
+ /home/smamran09/php-src/ext/intl/intl_error.h \
+ /home/smamran09/php-src/Zend/zend_exceptions.h \
+ /home/smamran09/php-src/ext/json/php_json.h \
+ /home/smamran09/php-src/ext/mbstring/mbstring.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfilter.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_defs.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_consts.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_encoding.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_language.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_string.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_convert.h \
+ /home/smamran09/php-src/ext/mbstring/libmbfl/mbfl/mbfl_memory_device.h \
+ /home/smamran09/php-src/ext/mysqli/php_mysqli.h \
+ /home/smamran09/php-src/ext/pdo/php_pdo.h \
+ /home/smamran09/php-src/ext/pdo_mysql/php_pdo_mysql.h \
+ /home/smamran09/php-src/ext/pdo_sqlite/php_pdo_sqlite.h \
+ /home/smamran09/php-src/ext/pgsql/php_pgsql.h \
+ /home/smamran09/php-src/ext/phar/php_phar.h \
+ /home/smamran09/php-src/ext/standard/basic_functions.h \
+ /home/smamran09/php-src/ext/standard/php_filestat.h \
+ /home/smamran09/php-src/Zend/zend_highlight.h \
+ /home/smamran09/php-src/ext/standard/url_scanner_ex.h \
+ /home/smamran09/php-src/ext/posix/php_posix.h \
+ /home/smamran09/php-src/ext/reflection/php_reflection.h \
+ /home/smamran09/php-src/ext/session/php_session.h \
+ /home/smamran09/php-src/ext/standard/php_var.h \
+ /home/smamran09/php-src/ext/simplexml/php_simplexml.h \
+ /usr/include/libxml2/libxml/xmlschemas.h \
+ /home/smamran09/php-src/ext/soap/php_soap.h main/php_globals.h \
+ /home/smamran09/php-src/ext/standard/php_standard.h \
+ /home/smamran09/php-src/ext/standard/basic_functions.h \
+ /home/smamran09/php-src/ext/standard/php_math.h \
+ /home/smamran09/php-src/ext/standard/php_string.h \
+ /home/smamran09/php-src/ext/standard/base64.h \
+ /home/smamran09/php-src/ext/standard/php_dir.h \
+ /home/smamran09/php-src/ext/standard/php_dns.h \
+ /home/smamran09/php-src/ext/standard/php_mail.h \
+ /home/smamran09/php-src/ext/standard/md5.h \
+ /home/smamran09/php-src/ext/standard/sha1.h \
+ /home/smamran09/php-src/ext/standard/html.h \
+ /home/smamran09/php-src/ext/standard/exec.h \
+ /home/smamran09/php-src/ext/standard/file.h main/php_network.h \
+ /home/smamran09/php-src/ext/standard/php_ext_syslog.h main/php_syslog.h \
+ /home/smamran09/php-src/ext/standard/php_browscap.h \
+ /home/smamran09/php-src/ext/standard/pack.h \
+ /home/smamran09/php-src/ext/standard/datetime.h \
+ /home/smamran09/php-src/ext/standard/url.h \
+ /home/smamran09/php-src/ext/standard/pageinfo.h \
+ /home/smamran09/php-src/ext/standard/fsock.h \
+ /home/smamran09/php-src/ext/standard/php_image.h \
+ /home/smamran09/php-src/ext/standard/info.h \
+ /home/smamran09/php-src/ext/standard/php_var.h \
+ /home/smamran09/php-src/ext/standard/quot_print.h \
+ /home/smamran09/php-src/ext/standard/dl.h \
+ /home/smamran09/php-src/ext/standard/php_crypt.h \
+ /home/smamran09/php-src/ext/standard/head.h main/php_output.h \
+ /home/smamran09/php-src/ext/standard/php_array.h \
+ /home/smamran09/php-src/ext/standard/php_assert.h \
+ /home/smamran09/php-src/ext/standard/php_versioning.h \
+ /home/smamran09/php-src/ext/standard/php_password.h \
+ /home/smamran09/php-src/ext/soap/php_xml.h \
+ /home/smamran09/php-src/ext/soap/php_encoding.h \
+ /home/smamran09/php-src/ext/soap/php_sdl.h \
+ /home/smamran09/php-src/ext/soap/php_schema.h \
+ /home/smamran09/php-src/ext/soap/php_http.h \
+ /home/smamran09/php-src/ext/soap/php_packet_soap.h \
+ /home/smamran09/php-src/ext/sockets/php_sockets.h \
+ /home/smamran09/php-src/ext/spl/php_spl.h \
+ /home/smamran09/php-src/ext/tokenizer/php_tokenizer.h \
+ /home/smamran09/php-src/ext/xml/php_xml.h \
+ /home/smamran09/php-src/ext/xml/expat_compat.h main/php_compat.h \
+ /home/smamran09/php-src/ext/xmlreader/php_xmlreader.h \
+ /usr/include/libxml2/libxml/xmlreader.h \
+ /usr/include/libxml2/libxml/relaxng.h \
+ /home/smamran09/php-src/ext/xmlwriter/php_xmlwriter.h \
+ /usr/include/libxml2/libxml/xmlwriter.h \
+ /home/smamran09/php-src/ext/xsl/php_xsl.h \
+ /home/smamran09/php-src/ext/xsl/../dom/xml_common.h \
+ /home/smamran09/php-src/ext/mysqlnd/php_mysqlnd.h

@@ -1,0 +1,33 @@
+--
+     0000 RETURN int(42)
+     
+     Test2::getInt2:
+049-      ; (lines=3, args=0, vars=0, tmps=1)
+049+      ; (lines=4, args=0, vars=0, tmps=1)
+          ; (after optimizer)
+          ; %s
+     0000 INIT_METHOD_CALL 0 THIS string("getInt")
+     0001 V0 = DO_FCALL
+054- 0002 RETURN V0
+054+ 0002 VERIFY_RETURN_TYPE V0
+055+ 0003 RETURN V0
+056+ LIVE RANGES:
+057+      0: 0002 - 0003 (tmp/var)
+     
+     Test2::getIntOrFloat:
+          ; (lines=2, args=1, vars=1, tmps=0)
+--
+     0003 V1 = DO_FCALL
+     0004 VERIFY_RETURN_TYPE V1
+     0005 RETURN V1
+076+ LIVE RANGES:
+077+      1: 0004 - 0005 (tmp/var)
+     
+     Test3::getBool:
+          ; (lines=1, args=0, vars=0, tmps=0)
+--
+          ; (after optimizer)
+          ; %s
+     0000 V0 = QM_ASSIGN bool(true)
+085- 0001 RETURN bool(true)
+090+ 0001 RETURN V0
